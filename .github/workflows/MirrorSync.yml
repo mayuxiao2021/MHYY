@@ -16,5 +16,5 @@ jobs:
         run: |
           git fetch --unshallow
           git checkout master
-          git remote add gitea https://${{ secrets.GITEA_USERNAME }}:${{ secrets.GITEA_PASSWORD }}@git.bili33.top/GamerNoTitle/MHYY.git   
+          git remote add gitea https://${{ secrets.GITEA_USERNAME }}:${{ secrets.GITEA_PASSWORD }}@github.com/mayuxiao2021/MHYY.git   
           git push gitea master
