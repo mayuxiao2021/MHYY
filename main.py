@@ -1,4 +1,4 @@
-import requirements.txt as r
+import requests as r
 import httpx
 import json
 import os
